@@ -7,14 +7,14 @@
 #include <wiringPi.h>
 #include <stdio.h>
 
-#define  ledPin    0	//define the led pin number
+#define  ledPin    12	//define the led pin number
 
 void main(void)
-{	
+{
 	printf("Program is starting ... \n");
-	
+
 	wiringPiSetup();	//Initialize wiringPi.
-	
+
 	pinMode(ledPin, OUTPUT);//Set the pin mode
 	printf("Using pin%d\n",ledPin);	//Output information on terminal
 	while(1){
