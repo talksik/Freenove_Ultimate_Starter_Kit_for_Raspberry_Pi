@@ -7,7 +7,7 @@
 #include <wiringPi.h>
 #include <stdio.h>
 
-#define  ledPin    12	//define the led pin number
+#define  ledPin    26	//define the led pin number
 
 void main(void)
 {
